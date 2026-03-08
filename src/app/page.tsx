@@ -40,14 +40,14 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 border-b border-white/10 bg-stone-950/20 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center space-x-2 text-white">
-            <div className="w-8 h-8 bg-white text-stone-900 rounded-md flex items-center justify-center font-black text-xl tracking-tighter">
-              G
+          <div className="flex items-center space-x-3 text-white">
+            <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
+              <img src="/family-logo.png" alt="Gaffney Seal" className="w-full h-full object-contain filter drop-shadow-md" />
             </div>
             <span className="text-lg md:text-xl font-bold tracking-tight drop-shadow-sm">The Gaffney Family.</span>
           </div>
           <a
-            href="http://localhost:3000"
+            href="https://the-weekender-seven.vercel.app"
             className="flex items-center space-x-2 bg-rose-800 hover:bg-rose-700 text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all shadow-lg shadow-rose-900/20 group"
           >
             <LayoutDashboard className="w-4 h-4 text-rose-200 group-hover:text-white transition-colors" />
@@ -174,7 +174,7 @@ export default function Home() {
             <span>&copy; {new Date().getFullYear()}</span>
           </div>
           <div className="flex space-x-6 text-sm font-medium text-stone-500">
-            <a href="http://localhost:3000" className="hover:text-rose-700 transition-colors bg-white px-4 py-2 rounded-lg border border-stone-200 shadow-sm">Weekender App Login</a>
+            <a href="https://the-weekender-seven.vercel.app" className="hover:text-rose-700 transition-colors bg-white px-4 py-2 rounded-lg border border-stone-200 shadow-sm">Weekender App Login</a>
           </div>
         </div>
       </footer>
