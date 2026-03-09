@@ -41,8 +41,8 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 border-b border-white/10 bg-stone-950/20 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center space-x-3 text-white">
-            <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">
-              <img src="/family-logo.png" alt="Gaffney Seal" className="w-full h-full object-contain filter drop-shadow-md" />
+            <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center p-0.5 bg-white/10 rounded-full border border-white/20">
+              <img src="/family-logo.png" alt="Gaffney Seal" className="w-full h-full object-cover rounded-full shadow-sm" />
             </div>
             <span className="text-lg md:text-xl font-bold tracking-tight drop-shadow-sm">The Gaffney Family.</span>
           </div>
